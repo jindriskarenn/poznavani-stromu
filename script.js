@@ -1,63 +1,63 @@
-// URL obrázků z volných zdrojů (po vložení skutečných fotek)
+// Obrázky stromů nahrané uživatelem
 const trees = [
     {
         name: "Smrk",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Picea_abies_001.jpg/400px-Picea_abies_001.jpg",
+        image: "images/smrk.jpg",
         description: "Vysoký jehličnatý strom s kónickým tvarem a krátkými jehličkami"
     },
     {
         name: "Borovice",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Pinus_sylvestris_002.jpg/400px-Pinus_sylvestris_002.jpg",
+        image: "images/borovice.jpg",
         description: "Jehličnatý strom s oranžovou kůrou nahoře a dlouhými jehlicemi"
     },
     {
         name: "Modřín",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Larix_decidua_001.jpg/400px-Larix_decidua_001.jpg",
+        image: "images/modrin.jpg",
         description: "Jehličnatý strom, který na zimu shazuje jehličí"
     },
     {
         name: "Jedle",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Abies_alba_001.jpg/400px-Abies_alba_001.jpg",
+        image: "images/jedle.jpg",
         description: "Jehličnatý strom s plochými jehlicemi a vzpřímeními šiškami"
     },
     {
         name: "Jírovec",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Aesculus_hippocastanum_002.jpg/400px-Aesculus_hippocastanum_002.jpg",
+        image: "images/jirovec.jpg",
         description: "Listnatý strom s velkými složenými listy a kaštany"
     },
     {
         name: "Buk",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Fagus_sylvatica_001.jpg/400px-Fagus_sylvatica_001.jpg",
+        image: "images/buk.jpg",
         description: "Listnatý strom s hladkou šedou kůrou a oválnými listy"
     },
     {
         name: "Dub",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Quercus_robur_001.jpg/400px-Quercus_robur_001.jpg",
+        image: "images/dub.jpg",
         description: "Listnatý strom s laločnatými listy a žaludy"
     },
     {
         name: "Vrba",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Salix_babylonica_001.jpg/400px-Salix_babylonica_001.jpg",
+        image: "images/vrba.jpg",
         description: "Listnatý strom rostoucí u vody s dlouhými převislými větvemi"
     },
     {
         name: "Topol",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Populus_nigra_001.jpg/400px-Populus_nigra_001.jpg",
+        image: "images/topol.jpg",
         description: "Vysoký listnatý strom s trojúhelníkovitými listy"
     },
     {
         name: "Lípa",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Tilia_cordata_001.jpg/400px-Tilia_cordata_001.jpg",
+        image: "images/lipa.jpg",
         description: "Listnatý strom se srdčitými listy a vonným květem"
     },
     {
         name: "Javor",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Acer_platanoides_001.jpg/400px-Acer_platanoides_001.jpg",
+        image: "images/javor.jpg",
         description: "Listnatý strom s dlanitými listy a okřídlenými plody"
     },
     {
         name: "Bříza",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Betula_pendula_001.jpg/400px-Betula_pendula_001.jpg",
+        image: "images/briza.jpg",
         description: "Listnatý strom s charakteristickou bílou kůrou s černými pruhy"
     }
 ];
