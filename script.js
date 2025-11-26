@@ -1,43 +1,4 @@
-function createTreeImage(name, color, emoji) {
-    const canvas = document.createElement('canvas');
-    canvas.width = 400;
-    canvas.height = 300;
-    const ctx = canvas.getContext('2d');
-
-    // Pozadí
-    const gradient = ctx.createLinearGradient(0, 0, 0, 300);
-    gradient.addColorStop(0, '#E8F5E8');
-    gradient.addColorStop(1, '#C8E6C8');
-    ctx.fillStyle = gradient;
-    ctx.fillRect(0, 0, 400, 300);
-
-    // Hlavní barva stromu
-    ctx.fillStyle = color;
-    ctx.fillRect(80, 60, 240, 180);
-    ctx.fillStyle = 'rgba(255,255,255,0.1)';
-    ctx.fillRect(80, 60, 240, 90);
-
-    // Rámeček
-    ctx.strokeStyle = '#2E7D32';
-    ctx.lineWidth = 3;
-    ctx.strokeRect(80, 60, 240, 180);
-
-    // Text s názvem
-    ctx.fillStyle = 'white';
-    ctx.font = 'bold 28px "Comic Sans MS", cursive, sans-serif';
-    ctx.textAlign = 'center';
-    ctx.strokeStyle = '#1B5E20';
-    ctx.lineWidth = 3;
-    ctx.strokeText(name, 200, 140);
-    ctx.fillText(name, 200, 140);
-
-    // Emoji
-    ctx.font = '40px Arial';
-    ctx.fillText(emoji, 200, 190);
-
-    return canvas.toDataURL('image/png');
-}
-
+// Všechny obrázky stromů nyní používají uživatelské fotografie
 const trees = [
     {
         name: "Smrk",
@@ -46,7 +7,7 @@ const trees = [
     },
     {
         name: "Borovice",
-        image: createTreeImage("Borovice", "#2E7D32", "🌲"),
+        image: "images/borovice.jpg",
         description: "Jehličnatý strom s oranžovou kůrou nahoře"
     },
     {
@@ -81,7 +42,7 @@ const trees = [
     },
     {
         name: "Topol",
-        image: createTreeImage("Topol", "#7CB342", "🌳"),
+        image: "images/topol.jpg",
         description: "Vysoký listnatý strom s trojúhelníkovitými listy"
     },
     {
@@ -96,7 +57,7 @@ const trees = [
     },
     {
         name: "Bříza",
-        image: createTreeImage("Bříza", "#81C784", "🌳"),
+        image: "images/briza.jpg",
         description: "Listnatý strom s bílou kůrou s černými pruhy"
     }
 ];
