@@ -41,7 +41,7 @@ function createTreeImage(name, color, emoji) {
 const trees = [
     {
         name: "Smrk",
-        image: createTreeImage("Smrk", "#0D4F3C", "🌲"),
+        image: "images/smrk.jpg",
         description: "Vysoký jehličnatý strom s kónickým tvarem"
     },
     {
@@ -56,7 +56,7 @@ const trees = [
     },
     {
         name: "Jedle",
-        image: createTreeImage("Jedle", "#1B5E20", "🌲"),
+        image: "images/jedle.jpg",
         description: "Jehličnatý strom s rovnými větvemi"
     },
     {
@@ -66,7 +66,7 @@ const trees = [
     },
     {
         name: "Buk",
-        image: createTreeImage("Buk", "#689F38", "🌳"),
+        image: "images/buk.jpg",
         description: "Listnatý strom s hladkou kůrou a bukvicemi"
     },
     {
