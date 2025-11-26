@@ -71,7 +71,7 @@ const trees = [
     },
     {
         name: "Dub",
-        image: createTreeImage("Dub", "#558B2F", "🌳"),
+        image: "images/dub.jpg",
         description: "Listnatý strom s laločnatými listy a žaludy"
     },
     {
