@@ -61,7 +61,7 @@ const trees = [
     },
     {
         name: "Jírovec",
-        image: createTreeImage("Jírovec", "#8BC34A", "🌰"),
+        image: "images/jirovec.jpg",
         description: "Listnatý strom s velkými složenými listy a kaštany"
     },
     {
@@ -76,7 +76,7 @@ const trees = [
     },
     {
         name: "Vrba",
-        image: createTreeImage("Vrba", "#9CCC65", "🌿"),
+        image: "images/vrba.jpg",
         description: "Listnatý strom rostoucí u vody s převislými větvemi"
     },
     {
@@ -91,7 +91,7 @@ const trees = [
     },
     {
         name: "Javor",
-        image: createTreeImage("Javor", "#4CAF50", "🍁"),
+        image: "images/javor.jpg",
         description: "Listnatý strom s dlanitými listy"
     },
     {
