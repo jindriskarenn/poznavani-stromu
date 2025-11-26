@@ -1,0 +1,17 @@
+[
+  {
+    "content": "Save user images as small files to images folder",
+    "status": "completed",
+    "activeForm": "Saving user images as small files to images folder"
+  },
+  {
+    "content": "Update script.js to use local images",
+    "status": "completed",
+    "activeForm": "Updating script.js to use local images"
+  },
+  {
+    "content": "Test and deploy",
+    "status": "in_progress",
+    "activeForm": "Testing and deploying"
+  }
+]

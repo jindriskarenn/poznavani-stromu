@@ -7,7 +7,7 @@ const trees = [
     },
     {
         name: "Borovice",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Pinus_sylvestris_002.jpg/400px-Pinus_sylvestris_002.jpg",
+        image: "images/borovice.jpg",
         description: "Jehličnatý strom s oranžovou kůrou nahoře"
     },
     {
@@ -27,7 +27,7 @@ const trees = [
     },
     {
         name: "Buk",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Fagus_sylvatica_001.jpg/400px-Fagus_sylvatica_001.jpg",
+        image: "images/buk.jpg",
         description: "Listnatý strom s hladkou kůrou a bukvicemi"
     },
     {
@@ -42,7 +42,7 @@ const trees = [
     },
     {
         name: "Topol",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Populus_nigra_001.jpg/400px-Populus_nigra_001.jpg",
+        image: "images/topol.jpg",
         description: "Vysoký listnatý strom s trojúhelníkovitými listy"
     },
     {
@@ -57,7 +57,7 @@ const trees = [
     },
     {
         name: "Bříza",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Betula_pendula_001.jpg/400px-Betula_pendula_001.jpg",
+        image: "images/briza.jpg",
         description: "Listnatý strom s bílou kůrou s černými pruhy"
     }
 ];
