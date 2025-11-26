@@ -1,62 +1,114 @@
+function createTreeImage(name, color, emoji) {
+    const canvas = document.createElement('canvas');
+    canvas.width = 400;
+    canvas.height = 300;
+    const ctx = canvas.getContext('2d');
+
+    // Pozadí
+    const gradient = ctx.createLinearGradient(0, 0, 0, 300);
+    gradient.addColorStop(0, '#E8F5E8');
+    gradient.addColorStop(1, '#C8E6C8');
+    ctx.fillStyle = gradient;
+    ctx.fillRect(0, 0, 400, 300);
+
+    // Hlavní barva stromu
+    ctx.fillStyle = color;
+    ctx.fillRect(80, 60, 240, 180);
+    ctx.fillStyle = 'rgba(255,255,255,0.1)';
+    ctx.fillRect(80, 60, 240, 90);
+
+    // Rámeček
+    ctx.strokeStyle = '#2E7D32';
+    ctx.lineWidth = 3;
+    ctx.strokeRect(80, 60, 240, 180);
+
+    // Text s názvem
+    ctx.fillStyle = 'white';
+    ctx.font = 'bold 28px "Comic Sans MS", cursive, sans-serif';
+    ctx.textAlign = 'center';
+    ctx.strokeStyle = '#1B5E20';
+    ctx.lineWidth = 3;
+    ctx.strokeText(name, 200, 140);
+    ctx.fillText(name, 200, 140);
+
+    // Emoji
+    ctx.font = '40px Arial';
+    ctx.fillText(emoji, 200, 190);
+
+    // Shadow effect
+    ctx.shadowColor = 'rgba(0,0,0,0.3)';
+    ctx.shadowBlur = 5;
+    ctx.shadowOffsetX = 2;
+    ctx.shadowOffsetY = 2;
+
+    // Type indicator
+    ctx.fillStyle = '#4CAF50';
+    ctx.font = 'bold 14px Arial';
+    ctx.textAlign = 'center';
+    ctx.shadowColor = 'transparent';
+
+    return canvas.toDataURL('image/png');
+}
+
 const trees = [
     {
         name: "Smrk",
-        image: "images/smrk.jpg",
+        image: createTreeImage("Smrk", "#0D4F3C", "🌲"),
         description: "Vysoký jehličnatý strom s kónickým tvarem"
     },
     {
         name: "Borovice",
-        image: "images/borovice.jpg",
+        image: createTreeImage("Borovice", "#2E7D32", "🌲"),
         description: "Jehličnatý strom s oranžovou kůrou nahoře"
     },
     {
         name: "Modřín",
-        image: "images/modrin.jpg",
+        image: createTreeImage("Modřín", "#4CAF50", "🌲"),
         description: "Jehličnatý strom, který na zimu shazuje jehličí"
     },
     {
         name: "Jedle",
-        image: "images/jedle.jpg",
+        image: createTreeImage("Jedle", "#1B5E20", "🌲"),
         description: "Jehličnatý strom s rovnými větvemi"
     },
     {
         name: "Jírovec",
-        image: "images/jirovec.jpg",
+        image: createTreeImage("Jírovec", "#8BC34A", "🌰"),
         description: "Listnatý strom s velkými složenými listy a kaštany"
     },
     {
         name: "Buk",
-        image: "images/buk.jpg",
+        image: createTreeImage("Buk", "#689F38", "🌳"),
         description: "Listnatý strom s hladkou kůrou a bukvicemi"
     },
     {
         name: "Dub",
-        image: "images/dub.jpg",
+        image: createTreeImage("Dub", "#558B2F", "🌳"),
         description: "Listnatý strom s laločnatými listy a žaludy"
     },
     {
         name: "Vrba",
-        image: "images/vrba.jpg",
+        image: createTreeImage("Vrba", "#9CCC65", "🌿"),
         description: "Listnatý strom rostoucí u vody s převislými větvemi"
     },
     {
         name: "Topol",
-        image: "images/topol.jpg",
+        image: createTreeImage("Topol", "#7CB342", "🌳"),
         description: "Vysoký listnatý strom s trojúhelníkovitými listy"
     },
     {
         name: "Lípa",
-        image: "images/lipa.jpg",
+        image: createTreeImage("Lípa", "#66BB6A", "🌳"),
         description: "Listnatý strom se srdčitými listy"
     },
     {
         name: "Javor",
-        image: "images/javor.jpg",
+        image: createTreeImage("Javor", "#4CAF50", "🍁"),
         description: "Listnatý strom s dlanitými listy"
     },
     {
         name: "Bříza",
-        image: "images/briza.jpg",
+        image: createTreeImage("Bříza", "#81C784", "🌳"),
         description: "Listnatý strom s bílou kůrou s černými pruhy"
     }
 ];
