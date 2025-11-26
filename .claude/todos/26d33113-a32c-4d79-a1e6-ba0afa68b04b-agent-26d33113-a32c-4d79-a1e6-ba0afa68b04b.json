@@ -1,17 +1,22 @@
 [
   {
-    "content": "Save user images as small files to images folder",
+    "content": "Create black and white versions of all tree images",
     "status": "completed",
-    "activeForm": "Saving user images as small files to images folder"
+    "activeForm": "Creating black and white versions of all tree images"
   },
   {
-    "content": "Update script.js to use local images",
+    "content": "Update trees array with B&W variants",
     "status": "completed",
-    "activeForm": "Updating script.js to use local images"
+    "activeForm": "Updating trees array with B&W variants"
   },
   {
-    "content": "Test and deploy",
+    "content": "Implement logic to prevent same tree twice in a row",
+    "status": "completed",
+    "activeForm": "Implementing logic to prevent same tree twice in a row"
+  },
+  {
+    "content": "Test and deploy updated version",
     "status": "in_progress",
-    "activeForm": "Testing and deploying"
+    "activeForm": "Testing and deploying updated version"
   }
 ]
