@@ -51,7 +51,7 @@ const trees = [
     },
     {
         name: "Modřín",
-        image: createTreeImage("Modřín", "#4CAF50", "🌲"),
+        image: "images/modrin.jpg",
         description: "Jehličnatý strom, který na zimu shazuje jehličí"
     },
     {
@@ -86,7 +86,7 @@ const trees = [
     },
     {
         name: "Lípa",
-        image: createTreeImage("Lípa", "#66BB6A", "🌳"),
+        image: "images/lipa.jpg",
         description: "Listnatý strom se srdčitými listy"
     },
     {
